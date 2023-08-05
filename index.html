@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Van's First Website</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header><h1>VAN'S FIRST WEBSITE</h1>
@@ -60,7 +61,18 @@
         <h2 id="contact">Contact me</h2>
         <div>Email</div>
         <div><a href="www.linkedin.com/in/anh-nguyen-van-the-248087250">LinkIn</a></div>
-
+        <p id="message"><label>Name</label>
+            <input type="text" id="athName" />
+            <br />
+            <label>Message</label>
+            <input type="number" id="athHeight" />
+             <br />
+            <button
+             onclick="alert(addAthlete(athName.value, athHeight.value));printInfo();">
+             Save
+            </button>
+        </p>
+      <p id="info"></p>
     </footer>
 </body>
 </html>
