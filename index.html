@@ -61,17 +61,19 @@
         <h2 id="contact">Contact me</h2>
         <div>Email</div>
         <div><a href="www.linkedin.com/in/anh-nguyen-van-the-248087250">LinkIn</a></div>
-        <p id="message"><label>Name</label>
-            <input type="text" id="athName" />
-            <br />
+        
+        <div>You can leave me a message!</div>
+        <label>Name</label>
+        <input type="text" id="vName"/>
+        <br />
             <label>Message</label>
-            <input type="number" id="athHeight" />
-             <br />
-            <button
-             onclick="alert(addAthlete(athName.value, athHeight.value));printInfo();">
-             Save
-            </button>
-        </p>
+            <input type="text" id="vMessage"/>
+        <br />
+        <button
+            onclick="alert(getMessage(vName.value, vMessage.value));printInfo();">
+            Save
+        </button>
+    
       <p id="info"></p>
     </footer>
 </body>

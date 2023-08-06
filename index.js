@@ -1,18 +1,16 @@
-const visitorName = [];
-const visitorMessage = [];
+let visitorName = [];
+let visitorMessage = new Array();
 
 function getMessage (name, message) {
-if (name && message !== null){
-    visitorName.push(name);
-    visitorMessage.push(message);
-    console.log("Message saved!");
-    return "Massage saved!"
+for(name in visitorName){
+    visitorName.push(name)
 }
-else
-console.log("Please leave your name and message!")
-return "Please leave your name and message!"
+for(message in visitorMessage){
+    visitorMessage.push(message)
+}
+console.log("Message saved!")
+return "Message saved!"
 }
 function printInfo() {
-    document.getElementById("info").innerHTML =
-      "Visitor's Name: [" + visitorName + "]message: [" + visitorMessage + "]";
+    document.getElementById("info").innerHTML = visitorName[name] + "left a message:<br> " + visitorMessage[message]+".";
   }
