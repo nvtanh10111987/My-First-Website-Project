@@ -18,6 +18,7 @@ img {
     height: fit-content;
 }
 main {
+    background-color: burlywood;
     list-style: none;
     gap: 3em;
     flex-flow: wrap;
