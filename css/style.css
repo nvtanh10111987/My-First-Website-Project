@@ -36,3 +36,14 @@ footer {
     display: grid;
     justify-content: start;
 }
+.content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+a :link{
+    color: blue;
+}
+a :visited {
+    color: brown;
+}
