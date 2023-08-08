@@ -3,13 +3,26 @@ html {
     font-family: cursive;
     font-size: 18px;
 }
-main {
+body {
+    background:blanchedalmond url(../red-leaves.jpg) no-repeat center;
+    background-size: cover;
+}
+header {
     display: flex;
+    background-color: aquamarine;
+    white-space: collapse;
+    flex-wrap: wrap;
+}
+img {
+    width: clamp(200px, 60%, 300px);
+    height: fit-content;
+}
+main {
     list-style: none;
     gap: 3em;
     flex-flow: wrap;
 }
-body h2 {
+body h3 {
     font-size: large;
     font-weight: bold;
     color: darkblue;
