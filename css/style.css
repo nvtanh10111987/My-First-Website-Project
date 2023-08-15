@@ -21,6 +21,8 @@ header {
 img {
     width: clamp(200px, 60%, 300px);
     height: fit-content;
+    grid-column-start: 3;
+    grid-row-start: 1;
 }
 main {
     background-color: burlywood;
