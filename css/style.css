@@ -59,6 +59,9 @@ section {
 ul {
     list-style: none;
 }
+#languages section {
+    justify-content: center;
+}
 a :link{
     color: blue;
 }
