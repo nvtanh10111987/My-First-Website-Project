@@ -62,6 +62,7 @@ ul {
 #languages section {
     justify-content: center;
 }
+main #projects section {justify-content: end;}
 a :link{
     color: blue;
 }
