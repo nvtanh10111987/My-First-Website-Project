@@ -56,6 +56,9 @@ section {
     display: flex;
     flex-direction: row;
 }
+#education section {
+    flex-direction: column;
+}
 ul {
     list-style: none;
 }
