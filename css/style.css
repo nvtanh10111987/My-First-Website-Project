@@ -21,6 +21,9 @@ a#about-me {
     display: flex;
     padding: 5em;
 }
+a#about-me h3 {
+align-self: center;
+}
 img {
     width: clamp(325px, 60%, 300px);
     height: fit-content;
