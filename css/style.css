@@ -62,8 +62,12 @@ section#firstBlock {
 }
 #education section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+section#eduInfo > ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5em;}
 ul {
     list-style: none;
 }
