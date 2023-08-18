@@ -30,8 +30,6 @@ img {
 main {
     background-color: burlywood;
     list-style: none;
-    gap: 3em;
-    flex-flow: wrap;
 }
 body h3 {
     font-size: large;
@@ -52,9 +50,8 @@ footer {
     justify-content: space-evenly;
     background-color: aqua;
 }
-section {
+section#firstBlock {
     display: flex;
-    flex-direction: row;
 }
 #education section {
     flex-direction: column;
@@ -62,8 +59,9 @@ section {
 ul {
     list-style: none;
 }
-a section ul {
-    display: inline-flex;
+a#skills section {
+    display: flex;
+    flex-direction: row;
 }
 #languages section {
     justify-content: center;
