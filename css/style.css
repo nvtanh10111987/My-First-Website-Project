@@ -33,10 +33,6 @@ img {
 main {
     list-style: none;
 }
-section#secondBlock {
-    display: flex;
-    justify-content: center;
-}
 body h3 {
     font-size: large;
     font-weight: bold;
@@ -59,10 +55,17 @@ footer {
 section#firstBlock {
     display: flex;
     column-gap: 18em;
+    padding: 2em 0 7em 0;
+}
+section#secondBlock {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 7em 0;
 }
 #education section {
     display: flex;
     flex-direction: row;
+    padding: 2em 0 5em 0;
 }
 section#eduInfo {
     flex-direction: column;
