@@ -33,6 +33,10 @@ img {
 main {
     list-style: none;
 }
+section#secondBlock {
+    display: flex;
+    justify-content: center;
+}
 body h3 {
     font-size: large;
     font-weight: bold;
