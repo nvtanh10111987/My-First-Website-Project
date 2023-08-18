@@ -85,6 +85,10 @@ a#skills section {
     justify-content: center;
     display: flex;
 }
+a#hobbies section {
+    display: grid;
+    justify-items: center;
+}
 a :link{
     color: blue;
 }
