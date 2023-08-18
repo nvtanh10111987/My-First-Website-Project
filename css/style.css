@@ -64,6 +64,9 @@ section#firstBlock {
     display: flex;
     flex-direction: row;
 }
+section#eduInfo {
+    flex-direction: column;
+}
 section#eduInfo > ul {
     display: flex;
     justify-content: space-between;
