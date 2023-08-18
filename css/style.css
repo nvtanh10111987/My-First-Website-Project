@@ -61,6 +61,7 @@ section#firstBlock {
     column-gap: 18em;
 }
 #education section {
+    display: flex;
     flex-direction: column;
 }
 ul {
