@@ -1,11 +1,7 @@
 html {
-    background-color: blanchedalmond;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(blanchedalmond,burlywood);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-}
-body {
-    background: url(../red-leaves.jpg) no-repeat center;
-    background-size: cover;
 }
 h1 {
     margin: 2em;
@@ -21,14 +17,17 @@ header {
 header a div {
     padding: 0 7em 0 4em;
 }
+a#about-me {
+    display: flex;
+    padding: 5em;
+}
 img {
-    width: clamp(200px, 60%, 300px);
+    width: clamp(325px, 60%, 300px);
     height: fit-content;
     grid-column-start: 3;
     grid-row-start: 1;
 }
 main {
-    background-color: burlywood;
     list-style: none;
 }
 body h3 {
