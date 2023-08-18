@@ -65,8 +65,8 @@ a#skills section {
 }
 #languages section {
     justify-content: center;
+    display: flex;
 }
-main #projects section {justify-content: end;}
 a :link{
     color: blue;
 }
