@@ -1,5 +1,5 @@
 html {
-    background-image: linear-gradient(blanchedalmond,burlywood);
+    background-image: linear-gradient(rgb(159, 159, 158),rgb(146, 133, 133));
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
@@ -10,7 +10,6 @@ h1 {
 }
 header {
     display: grid;
-    background-color: aquamarine;
     white-space: collapse;
     flex-wrap: wrap;
 }
@@ -37,6 +36,9 @@ body h3 {
     font-size: large;
     font-weight: bold;
     color: darkblue;
+}
+a#education section h3 {
+    padding-top: 2em;
 }
 span {
     font-style: italic;
@@ -88,6 +90,7 @@ a#skills section {
 a#hobbies section {
     display: grid;
     justify-items: center;
+    padding-bottom: 5em;
 }
 a :link{
     color: blue;
