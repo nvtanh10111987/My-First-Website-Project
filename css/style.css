@@ -52,6 +52,7 @@ footer {
 }
 section#firstBlock {
     display: flex;
+    column-gap: 18em;
 }
 #education section {
     flex-direction: column;
